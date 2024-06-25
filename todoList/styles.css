@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background : linear-gradient(90deg, #c2751e, #bc1f31)
+}
+
+
+.formConta{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.formConta form {
+   padding: 10px 30px;
+   
+    background : linear-gradient(90deg, #6e96b3, #0565ed);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.formConta form  input {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+}
+
+.formConta form  button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: lightgreen;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.formConta ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formConta li{
+    list-style: none;
+    background : linear-gradient(90deg, #438c42, #4adf5e);
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 60vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formConta li .iconBox{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.formConta li .iconBox .fa-trash{
+    color: #bc1f31;
+    cursor: pointer;
+}
+.formConta li .iconBox .fa-pen{
+    color: #bee401;
+    cursor: pointer;
+}
+.formConta li .iconBox .fa-check{
+    color: #054317;
+    cursor: pointer;
+}
+.formConta li .iconBox i:hover{
+    color: blue;
+}
